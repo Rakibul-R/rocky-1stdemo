@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+int n;
+printf("Enter your Number: ");
+scanf("%d", &n);
+int sum=0;
+
+for(int i=0, j=n; i<=n && j>=1; i++,j--){
+   sum=sum+i;
+   printf("%d\n",j); 
+
+}
+
+printf("Your Total sum is %d \n", sum);
+printf("Thank");
+
+    return 0;
+}
